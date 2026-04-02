@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer></script>
+    <!-- Script now goes here. the "defer" property says that will load after all loads are right. It will bring a overall performance -->
 </head>
 
 <body>
@@ -222,8 +224,7 @@
         </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
-
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <!-- You could change this to a JS script file. It's better to read -->
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
